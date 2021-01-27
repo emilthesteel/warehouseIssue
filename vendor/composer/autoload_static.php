@@ -23,6 +23,9 @@ class ComposerStaticInit9b503ef1b09cdec0ef684dffe9e0e1e2
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'SusanIssue\\Data\\DB' => __DIR__ . '/../..' . '/src/Data/DB.php',
+        'SusanIssue\\Methods\\EqualSides' => __DIR__ . '/../..' . '/src/Methods/EqualSides.php',
+        'SusanIssue\\Methods\\Method' => __DIR__ . '/../..' . '/src/Methods/Method.php',
+        'SusanIssue\\Models\\Product' => __DIR__ . '/../..' . '/src/Models/Product.php',
         'SusanIssue\\Models\\Warehouse' => __DIR__ . '/../..' . '/src/Models/Warehouse.php',
     );
 

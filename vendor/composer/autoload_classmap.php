@@ -8,5 +8,8 @@ $baseDir = dirname($vendorDir);
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'SusanIssue\\Data\\DB' => $baseDir . '/src/Data/DB.php',
+    'SusanIssue\\Methods\\EqualSides' => $baseDir . '/src/Methods/EqualSides.php',
+    'SusanIssue\\Methods\\Method' => $baseDir . '/src/Methods/Method.php',
+    'SusanIssue\\Models\\Product' => $baseDir . '/src/Models/Product.php',
     'SusanIssue\\Models\\Warehouse' => $baseDir . '/src/Models/Warehouse.php',
 );

@@ -54,4 +54,16 @@ class DB
         return $stmt; // Returns an associative array that can be diectly accessed or looped through with While or Foreach
     }
 
+    public function getRs($data)
+    {
+        $result = [];
+        while ($row = $data->fetch())
+        {
+            $result[] = $row;
+        }
+
+        return count($result) > 1 ?
+                $result : array_pop($result);
+    }
+
 }
